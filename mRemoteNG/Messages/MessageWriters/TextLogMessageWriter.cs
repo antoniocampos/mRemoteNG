@@ -1,6 +1,7 @@
-﻿using System;
+﻿using mRemoteNG.App;
+
+using System;
 using System.Runtime.Versioning;
-using mRemoteNG.App;
 
 namespace mRemoteNG.Messages.MessageWriters
 {

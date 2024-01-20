@@ -1,8 +1,9 @@
-﻿using System;
+﻿using mRemoteNG.UI;
+using mRemoteNG.UI.Window;
+
+using System;
 using System.Runtime.Versioning;
 using System.Windows.Forms;
-using mRemoteNG.UI;
-using mRemoteNG.UI.Window;
 
 namespace mRemoteNG.Messages.MessageWriters
 {

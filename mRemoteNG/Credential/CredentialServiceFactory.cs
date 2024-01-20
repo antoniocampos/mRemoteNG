@@ -1,12 +1,13 @@
-﻿using System.IO;
-using System.Runtime.Versioning;
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
 using mRemoteNG.App.Info;
 using mRemoteNG.Config;
 using mRemoteNG.Config.DataProviders;
 using mRemoteNG.Config.Serializers.CredentialProviderSerializer;
 using mRemoteNG.Config.Serializers.CredentialSerializer;
 using mRemoteNG.Security.Factories;
+
+using System.IO;
+using System.Runtime.Versioning;
 
 namespace mRemoteNG.Credential
 {

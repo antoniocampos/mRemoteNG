@@ -1,8 +1,9 @@
-﻿using System;
+﻿using mRemoteNG.Themes;
+
+using System;
 using System.Drawing;
 using System.Runtime.Versioning;
 using System.Windows.Forms;
-using mRemoteNG.Themes;
 
 namespace mRemoteNG.UI.Controls
 {

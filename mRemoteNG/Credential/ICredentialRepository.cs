@@ -1,8 +1,9 @@
-﻿using System;
+﻿using mRemoteNG.Credential.Repositories;
+using mRemoteNG.Tools.CustomCollections;
+
+using System;
 using System.Collections.Generic;
 using System.Security;
-using mRemoteNG.Credential.Repositories;
-using mRemoteNG.Tools.CustomCollections;
 
 
 namespace mRemoteNG.Credential

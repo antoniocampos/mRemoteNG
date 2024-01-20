@@ -1,9 +1,10 @@
-﻿using System;
+﻿using mRemoteNG.App;
+
+using System;
 using System.ComponentModel;
 using System.Drawing.Design;
 using System.Runtime.Versioning;
 using System.Windows.Forms.Design;
-using mRemoteNG.App;
 
 namespace mRemoteNG.UI.Controls.Adapters
 {

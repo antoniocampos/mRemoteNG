@@ -1,6 +1,7 @@
-﻿using System.Linq;
+﻿using mRemoteNG.Tools.CustomCollections;
+
+using System.Linq;
 using System.Runtime.Versioning;
-using mRemoteNG.Tools.CustomCollections;
 
 namespace mRemoteNG.Tools
 {

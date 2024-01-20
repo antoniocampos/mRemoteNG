@@ -1,6 +1,7 @@
-﻿using System;
+﻿using mRemoteNG.Resources.Language;
+
+using System;
 using System.ComponentModel;
-using mRemoteNG.Resources.Language;
 
 // ReSharper disable ArrangeAccessorOwnerBody
 
@@ -12,7 +13,7 @@ namespace mRemoteNG.Tools
         public class LocalizedCategoryAttribute : CategoryAttribute
         {
             private const int MaxOrder = 10;
-            private int Order;
+            private readonly int Order;
 
             public LocalizedCategoryAttribute(string value, int Order = 1) : base(value)
             {

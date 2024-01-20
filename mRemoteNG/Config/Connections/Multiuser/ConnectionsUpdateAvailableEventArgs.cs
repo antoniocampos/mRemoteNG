@@ -1,5 +1,6 @@
-﻿using System;
-using mRemoteNG.Config.DatabaseConnectors;
+﻿using mRemoteNG.Config.DatabaseConnectors;
+
+using System;
 
 namespace mRemoteNG.Config.Connections.Multiuser
 {

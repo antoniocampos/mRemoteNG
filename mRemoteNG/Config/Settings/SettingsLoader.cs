@@ -1,17 +1,19 @@
-﻿using System;
-using System.Drawing;
-using System.Windows.Forms;
-using WeifenLuo.WinFormsUI.Docking;
-using mRemoteNG.App;
-using System.Threading;
-using System.Globalization;
-using mRemoteNG.Connection.Protocol;
+﻿using mRemoteNG.App;
 using mRemoteNG.App.Info;
+using mRemoteNG.Connection.Protocol;
 using mRemoteNG.Messages;
 using mRemoteNG.Tools;
 using mRemoteNG.UI.Controls;
 using mRemoteNG.UI.Forms;
+
+using System;
+using System.Drawing;
+using System.Globalization;
 using System.Runtime.Versioning;
+using System.Threading;
+using System.Windows.Forms;
+
+using WeifenLuo.WinFormsUI.Docking;
 
 namespace mRemoteNG.Config.Settings
 {

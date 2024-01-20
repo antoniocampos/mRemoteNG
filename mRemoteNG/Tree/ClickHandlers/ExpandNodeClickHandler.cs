@@ -1,7 +1,8 @@
-﻿using System;
-using mRemoteNG.Connection;
+﻿using mRemoteNG.Connection;
 using mRemoteNG.Container;
 using mRemoteNG.UI.Controls.ConnectionTree;
+
+using System;
 
 namespace mRemoteNG.Tree.ClickHandlers
 {

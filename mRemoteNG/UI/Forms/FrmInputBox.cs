@@ -1,7 +1,8 @@
-﻿using System.Windows.Forms;
+﻿using mRemoteNG.Resources.Language;
 using mRemoteNG.Themes;
-using mRemoteNG.Resources.Language;
+
 using System.Runtime.Versioning;
+using System.Windows.Forms;
 
 namespace mRemoteNG.UI.Forms
 {

@@ -1,5 +1,6 @@
-﻿using System.Security;
-using mRemoteNG.Security;
+﻿using mRemoteNG.Security;
+
+using System.Security;
 
 namespace mRemoteNG.UI.Controls
 {

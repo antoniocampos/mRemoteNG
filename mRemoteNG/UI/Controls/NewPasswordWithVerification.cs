@@ -1,9 +1,10 @@
-﻿using System;
+﻿using mRemoteNG.Security;
+
+using System;
 using System.ComponentModel;
 using System.Drawing;
 using System.Security;
 using System.Windows.Forms;
-using mRemoteNG.Security;
 
 namespace mRemoteNG.UI.Controls
 {

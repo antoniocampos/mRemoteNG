@@ -1,14 +1,14 @@
-﻿using System;
+﻿using mRemoteNG.App;
+using mRemoteNG.Messages;
+using mRemoteNG.Resources.Language;
+using mRemoteNG.Tools;
+
+using System;
 using System.Diagnostics;
 using System.Drawing;
+using System.Runtime.Versioning;
 using System.Threading;
 using System.Windows.Forms;
-using mRemoteNG.App;
-using mRemoteNG.Messages;
-using mRemoteNG.Properties;
-using mRemoteNG.Tools;
-using mRemoteNG.Resources.Language;
-using System.Runtime.Versioning;
 
 namespace mRemoteNG.Connection.Protocol
 {

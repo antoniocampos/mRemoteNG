@@ -1,6 +1,7 @@
-﻿using System.Security;
+﻿using mRemoteNG.Security;
+
+using System.Security;
 using System.Xml.Linq;
-using mRemoteNG.Security;
 
 namespace mRemoteNG.Config.Serializers.ConnectionSerializers.Xml
 {

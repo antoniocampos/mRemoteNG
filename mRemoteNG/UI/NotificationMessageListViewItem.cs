@@ -1,6 +1,7 @@
-﻿using System;
+﻿using mRemoteNG.Messages;
+
+using System;
 using System.Windows.Forms;
-using mRemoteNG.Messages;
 
 namespace mRemoteNG.UI
 {

@@ -1,8 +1,9 @@
-﻿using System;
+﻿using mRemoteNG.Themes;
+
+using System;
 using System.Drawing;
 using System.Runtime.Versioning;
 using System.Windows.Forms;
-using mRemoteNG.Themes;
 
 // ReSharper disable LocalizableElement
 
@@ -123,7 +124,7 @@ namespace mRemoteNG.UI.Controls
             // NGNumericUpDown
             // 
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular,
-                                                System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                                                System.Drawing.GraphicsUnit.Point, 0);
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
         }

@@ -1,15 +1,17 @@
 ﻿using mRemoteNG.App;
-using System;
-using System.IO;
-using System.Threading;
-using mRemoteNG.Tools;
-using WeifenLuo.WinFormsUI.Docking;
-using System.Windows.Forms;
 using mRemoteNG.Messages;
+using mRemoteNG.Resources.Language;
+using mRemoteNG.Tools;
 using mRemoteNG.UI.Controls;
 using mRemoteNG.UI.Forms;
-using mRemoteNG.Resources.Language;
+
+using System;
+using System.IO;
 using System.Runtime.Versioning;
+using System.Threading;
+using System.Windows.Forms;
+
+using WeifenLuo.WinFormsUI.Docking;
 
 namespace mRemoteNG.UI.Window
 {
@@ -96,7 +98,7 @@ namespace mRemoteNG.UI.Window
             // 
             txtLocalFile.BorderStyle = BorderStyle.FixedSingle;
             txtLocalFile.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular,
-                                                             System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                                                             System.Drawing.GraphicsUnit.Point, 0);
             txtLocalFile.Location = new System.Drawing.Point(105, 28);
             txtLocalFile.Name = "txtLocalFile";
             txtLocalFile.Size = new System.Drawing.Size(455, 22);
@@ -120,7 +122,7 @@ namespace mRemoteNG.UI.Window
             // 
             txtRemoteFile.BorderStyle = BorderStyle.FixedSingle;
             txtRemoteFile.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular,
-                                                              System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                                                              System.Drawing.GraphicsUnit.Point, 0);
             txtRemoteFile.Location = new System.Drawing.Point(105, 60);
             txtRemoteFile.Name = "txtRemoteFile";
             txtRemoteFile.Size = new System.Drawing.Size(542, 22);
@@ -241,7 +243,7 @@ namespace mRemoteNG.UI.Window
             // 
             txtPort.BorderStyle = BorderStyle.FixedSingle;
             txtPort.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular,
-                                                        System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                                                        System.Drawing.GraphicsUnit.Point, 0);
             txtPort.Location = new System.Drawing.Point(271, 110);
             txtPort.Name = "txtPort";
             txtPort.Size = new System.Drawing.Size(30, 22);
@@ -253,7 +255,7 @@ namespace mRemoteNG.UI.Window
             // 
             txtHost.BorderStyle = BorderStyle.FixedSingle;
             txtHost.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular,
-                                                        System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                                                        System.Drawing.GraphicsUnit.Point, 0);
             txtHost.Location = new System.Drawing.Point(105, 19);
             txtHost.Name = "txtHost";
             txtHost.Size = new System.Drawing.Size(471, 22);
@@ -263,7 +265,7 @@ namespace mRemoteNG.UI.Window
             // 
             txtPassword.BorderStyle = BorderStyle.FixedSingle;
             txtPassword.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular,
-                                                            System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                                                            System.Drawing.GraphicsUnit.Point, 0);
             txtPassword.Location = new System.Drawing.Point(105, 81);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new System.Drawing.Size(471, 22);
@@ -274,7 +276,7 @@ namespace mRemoteNG.UI.Window
             // 
             txtUser.BorderStyle = BorderStyle.FixedSingle;
             txtUser.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular,
-                                                        System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                                                        System.Drawing.GraphicsUnit.Point, 0);
             txtUser.Location = new System.Drawing.Point(105, 51);
             txtUser.Name = "txtUser";
             txtUser.Size = new System.Drawing.Size(471, 22);
@@ -297,7 +299,7 @@ namespace mRemoteNG.UI.Window
             Controls.Add(grpConnection);
             Controls.Add(pbStatus);
             Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular,
-                                                System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                                                System.Drawing.GraphicsUnit.Point, 0);
             Name = "SSHTransferWindow";
             TabText = "SSH File Transfer";
             Text = "SSH File Transfer";

@@ -1,7 +1,7 @@
-﻿using System;
+﻿using mRemoteNG.Resources.Language;
+
+using System;
 using System.Drawing;
-using Google.Protobuf;
-using mRemoteNG.Resources.Language;
 
 namespace mRemoteNG.Tools
 {

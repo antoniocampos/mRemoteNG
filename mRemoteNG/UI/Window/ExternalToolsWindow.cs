@@ -1,16 +1,19 @@
-﻿using System;
-using System.Linq;
-using System.Windows.Forms;
-using BrightIdeasSoftware;
+﻿using BrightIdeasSoftware;
+
 using mRemoteNG.App;
 using mRemoteNG.Config.Settings;
-using mRemoteNG.Tools;
-using WeifenLuo.WinFormsUI.Docking;
-using mRemoteNG.UI.Forms;
-using mRemoteNG.Themes;
-using mRemoteNG.Tools.CustomCollections;
 using mRemoteNG.Resources.Language;
+using mRemoteNG.Themes;
+using mRemoteNG.Tools;
+using mRemoteNG.Tools.CustomCollections;
+using mRemoteNG.UI.Forms;
+
+using System;
+using System.Linq;
 using System.Runtime.Versioning;
+using System.Windows.Forms;
+
+using WeifenLuo.WinFormsUI.Docking;
 
 namespace mRemoteNG.UI.Window
 {

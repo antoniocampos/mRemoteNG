@@ -1,12 +1,13 @@
-﻿using System;
-using System.Runtime.Versioning;
-using System.Windows.Forms;
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
 using mRemoteNG.Properties;
 using mRemoteNG.Resources.Language;
 using mRemoteNG.UI.Forms;
 using mRemoteNG.UI.Panels;
 using mRemoteNG.UI.Window;
+
+using System;
+using System.Runtime.Versioning;
+using System.Windows.Forms;
 
 namespace mRemoteNG.UI.Menu
 {

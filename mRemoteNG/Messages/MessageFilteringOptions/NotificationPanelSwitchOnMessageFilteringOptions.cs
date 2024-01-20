@@ -1,6 +1,4 @@
-﻿using mRemoteNG.Properties;
-
-namespace mRemoteNG.Messages.MessageFilteringOptions
+﻿namespace mRemoteNG.Messages.MessageFilteringOptions
 {
     public class NotificationPanelSwitchOnMessageFilteringOptions : IMessageTypeFilteringOptions
     {

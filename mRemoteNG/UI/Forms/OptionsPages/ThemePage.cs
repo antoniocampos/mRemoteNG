@@ -1,13 +1,14 @@
-﻿using System;
-using System.Windows.Forms;
-using mRemoteNG.Themes;
-using System.Linq;
-using System.Collections.Generic;
-using BrightIdeasSoftware;
-using mRemoteNG.Properties;
-using mRemoteNG.UI.TaskDialog;
+﻿using BrightIdeasSoftware;
+
 using mRemoteNG.Resources.Language;
+using mRemoteNG.Themes;
+using mRemoteNG.UI.TaskDialog;
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Runtime.Versioning;
+using System.Windows.Forms;
 
 namespace mRemoteNG.UI.Forms.OptionsPages
 {

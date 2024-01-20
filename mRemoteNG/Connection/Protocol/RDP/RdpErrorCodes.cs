@@ -1,8 +1,9 @@
-﻿using System;
+﻿using mRemoteNG.App;
+using mRemoteNG.Resources.Language;
+
+using System;
 using System.Collections;
 using System.Runtime.Versioning;
-using mRemoteNG.App;
-using mRemoteNG.Resources.Language;
 
 namespace mRemoteNG.Connection.Protocol.RDP
 {

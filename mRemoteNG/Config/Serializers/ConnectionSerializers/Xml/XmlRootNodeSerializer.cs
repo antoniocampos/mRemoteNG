@@ -1,8 +1,9 @@
-﻿using System;
+﻿using mRemoteNG.Security;
+using mRemoteNG.Tree.Root;
+
+using System;
 using System.Runtime.Versioning;
 using System.Xml.Linq;
-using mRemoteNG.Security;
-using mRemoteNG.Tree.Root;
 
 namespace mRemoteNG.Config.Serializers.ConnectionSerializers.Xml
 {

@@ -1,12 +1,12 @@
 #if !PORTABLE
 using System;
-using System.Windows.Forms;
+using System.ComponentModel;
 using System.IO;
-using System.Security.Cryptography.X509Certificates;
+using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
-using System.Reflection;
-using System.ComponentModel;
+using System.Security.Cryptography.X509Certificates;
+using System.Windows.Forms;
 // ReSharper disable UnusedMember.Local
 // ReSharper disable NotAccessedField.Local
 // ReSharper disable UnusedAutoPropertyAccessor.Local
@@ -16,7 +16,7 @@ using System.ComponentModel;
 
 namespace mRemoteNG.Tools
 {
-	public class Authenticode
+    public class Authenticode
 	{
         #region Public Methods
 		public Authenticode(string filePath)
@@ -239,7 +239,7 @@ namespace mRemoteNG.Tools
 					cbStruct = (uint)Marshal.SizeOf(typeof(WINTRUST_DATA));
 				}
 
-			    private uint cbStruct;
+			    private readonly uint cbStruct;
 				public IntPtr pPolicyCallbackData;
 				public IntPtr pSIPClientData;
 				public uint dwUIChoice;
@@ -261,7 +261,7 @@ namespace mRemoteNG.Tools
 					cbStruct = (uint)Marshal.SizeOf(typeof(WINTRUST_FILE_INFO));
 				}
 
-			    private uint cbStruct;
+			    private readonly uint cbStruct;
 				[MarshalAs(UnmanagedType.LPTStr)]public string pcwszFilePath;
 				public IntPtr hFile;
 				public IntPtr pgKnownSubject;

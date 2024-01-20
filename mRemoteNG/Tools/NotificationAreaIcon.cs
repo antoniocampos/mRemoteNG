@@ -1,13 +1,13 @@
-﻿using System;
-using System.Linq;
-using System.Windows.Forms;
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
 using mRemoteNG.Connection;
 using mRemoteNG.Container;
-using mRemoteNG.Properties;
-using mRemoteNG.UI.Forms;
 using mRemoteNG.Resources.Language;
+using mRemoteNG.UI.Forms;
+
+using System;
+using System.Linq;
 using System.Runtime.Versioning;
+using System.Windows.Forms;
 
 
 namespace mRemoteNG.Tools

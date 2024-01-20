@@ -1,5 +1,5 @@
-﻿using mRemoteNG.Properties;
-using mRemoteNG.Tools.Cmdline;
+﻿using mRemoteNG.Tools.Cmdline;
+
 using System.Runtime.Versioning;
 
 namespace mRemoteNG.Tools

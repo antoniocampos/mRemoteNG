@@ -1,4 +1,7 @@
-﻿using System;
+﻿using mRemoteNG.App;
+using mRemoteNG.Messages;
+
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Net;
@@ -7,8 +10,6 @@ using System.Net.Sockets;
 using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
 using System.Threading;
-using mRemoteNG.App;
-using mRemoteNG.Messages;
 
 
 namespace mRemoteNG.Tools

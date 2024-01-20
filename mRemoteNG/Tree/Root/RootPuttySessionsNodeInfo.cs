@@ -1,6 +1,7 @@
 ﻿using mRemoteNG.Properties;
-using mRemoteNG.Tools;
 using mRemoteNG.Resources.Language;
+using mRemoteNG.Tools;
+
 using System.Runtime.Versioning;
 
 namespace mRemoteNG.Tree.Root

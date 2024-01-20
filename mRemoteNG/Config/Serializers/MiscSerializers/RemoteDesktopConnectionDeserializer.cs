@@ -1,9 +1,10 @@
-﻿using System;
-using System.Runtime.Versioning;
-using mRemoteNG.Connection;
+﻿using mRemoteNG.Connection;
 using mRemoteNG.Connection.Protocol.RDP;
 using mRemoteNG.Tree;
 using mRemoteNG.Tree.Root;
+
+using System;
+using System.Runtime.Versioning;
 
 namespace mRemoteNG.Config.Serializers.MiscSerializers
 {

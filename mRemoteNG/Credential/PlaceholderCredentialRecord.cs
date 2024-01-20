@@ -1,10 +1,11 @@
-﻿using System;
+﻿using mRemoteNG.Resources.Language;
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.Versioning;
 using System.Security;
-using mRemoteNG.Resources.Language;
 
 namespace mRemoteNG.Credential
 {

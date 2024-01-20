@@ -1,7 +1,9 @@
-﻿using System;
-using System.Security;
-using mRemoteNG.Security.SymmetricEncryption;
+﻿using mRemoteNG.Security.SymmetricEncryption;
+
 using Org.BouncyCastle.Security;
+
+using System;
+using System.Security;
 
 // ReSharper disable ArrangeAccessorOwnerBody
 

@@ -1,6 +1,7 @@
-﻿using System;
+﻿using Org.BouncyCastle.Security;
+
+using System;
 using System.Text;
-using Org.BouncyCastle.Security;
 
 namespace mRemoteNG.Security
 {

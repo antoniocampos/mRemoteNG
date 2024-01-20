@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
-using System.Runtime.Versioning;
-using BrightIdeasSoftware;
+﻿using BrightIdeasSoftware;
+
 using mRemoteNG.Connection;
+
+using System.Collections.Generic;
+using System.Runtime.Versioning;
 
 namespace mRemoteNG.UI.Controls.ConnectionTree
 {

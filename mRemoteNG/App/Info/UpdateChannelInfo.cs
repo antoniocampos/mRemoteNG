@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Runtime.Versioning;
-using mRemoteNG.Properties;
 
 // ReSharper disable InconsistentNaming
 

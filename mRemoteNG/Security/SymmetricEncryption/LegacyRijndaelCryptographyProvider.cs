@@ -1,12 +1,13 @@
-﻿using System;
+﻿using mRemoteNG.App;
+using mRemoteNG.Messages;
+using mRemoteNG.Resources.Language;
+
+using System;
 using System.IO;
 using System.Runtime.Versioning;
 using System.Security;
 using System.Security.Cryptography;
 using System.Text;
-using mRemoteNG.App;
-using mRemoteNG.Messages;
-using mRemoteNG.Resources.Language;
 
 
 namespace mRemoteNG.Security.SymmetricEncryption

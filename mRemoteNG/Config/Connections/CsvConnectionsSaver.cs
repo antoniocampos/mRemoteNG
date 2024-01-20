@@ -1,10 +1,11 @@
-﻿using System;
-using System.Runtime.Versioning;
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
 using mRemoteNG.Config.DataProviders;
 using mRemoteNG.Config.Serializers.ConnectionSerializers.Csv;
 using mRemoteNG.Security;
 using mRemoteNG.Tree;
+
+using System;
+using System.Runtime.Versioning;
 
 namespace mRemoteNG.Config.Connections
 {

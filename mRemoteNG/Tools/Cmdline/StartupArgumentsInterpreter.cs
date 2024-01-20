@@ -1,13 +1,13 @@
-﻿using System;
+﻿using mRemoteNG.App.Info;
+using mRemoteNG.Messages;
+using mRemoteNG.Resources.Language;
+
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Runtime.Versioning;
 using System.Windows.Forms;
-using mRemoteNG.App.Info;
-using mRemoteNG.Messages;
-using mRemoteNG.Properties;
-using mRemoteNG.Resources.Language;
 
 
 namespace mRemoteNG.Tools.Cmdline

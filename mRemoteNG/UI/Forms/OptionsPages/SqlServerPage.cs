@@ -1,10 +1,10 @@
-﻿using System;
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
 using mRemoteNG.Config.Connections.Multiuser;
 using mRemoteNG.Config.DatabaseConnectors;
-using mRemoteNG.Properties;
-using mRemoteNG.Security.SymmetricEncryption;
 using mRemoteNG.Resources.Language;
+using mRemoteNG.Security.SymmetricEncryption;
+
+using System;
 using System.Runtime.Versioning;
 
 namespace mRemoteNG.UI.Forms.OptionsPages

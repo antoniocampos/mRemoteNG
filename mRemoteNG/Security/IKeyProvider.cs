@@ -1,5 +1,6 @@
-﻿using System.Security;
-using mRemoteNG.Tools;
+﻿using mRemoteNG.Tools;
+
+using System.Security;
 
 namespace mRemoteNG.Security
 {

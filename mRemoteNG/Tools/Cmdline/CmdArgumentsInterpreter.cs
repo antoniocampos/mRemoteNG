@@ -1,9 +1,10 @@
-﻿using System;
+﻿using mRemoteNG.App;
+
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Runtime.Versioning;
 using System.Text.RegularExpressions;
-using mRemoteNG.App;
 
 // ReSharper disable ArrangeAccessorOwnerBody
 

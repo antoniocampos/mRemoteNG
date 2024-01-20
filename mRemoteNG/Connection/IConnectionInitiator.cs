@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
-using mRemoteNG.Container;
+﻿using mRemoteNG.Container;
 using mRemoteNG.UI.Window;
+
+using System.Collections.Generic;
 
 namespace mRemoteNG.Connection
 {

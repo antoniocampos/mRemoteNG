@@ -1,12 +1,12 @@
-﻿using System.Diagnostics;
-using System.Windows.Forms;
-using mRemoteNG.App.Info;
-using mRemoteNG.Themes;
+﻿using mRemoteNG.App.Info;
 using mRemoteNG.Resources.Language;
+using mRemoteNG.Themes;
+
+using System.Diagnostics;
 using System.Reflection;
-using mRemoteNG.Properties;
 using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
+using System.Windows.Forms;
 
 namespace mRemoteNG.UI.Forms
 {

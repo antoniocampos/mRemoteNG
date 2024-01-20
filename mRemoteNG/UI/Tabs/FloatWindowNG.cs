@@ -3,6 +3,7 @@ using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Security.Permissions;
 using System.Windows.Forms;
+
 using WeifenLuo.WinFormsUI.Docking;
 
 namespace mRemoteNG.UI.Tabs
@@ -53,9 +54,9 @@ namespace mRemoteNG.UI.Tabs
                 if ((uint)m.WParam == 8) // Check if button down occured in minimize box
                 {
                     if (WindowState == FormWindowState.Minimized)
-                        FloatWindowNG.SendMessage(Handle, (int)WM_SYSCOMMAND, (uint)SC_RESTORE, 0);
+                        FloatWindowNG.SendMessage(Handle, WM_SYSCOMMAND, (uint)SC_RESTORE, 0);
                     else
-                        FloatWindowNG.SendMessage(Handle, (int)WM_SYSCOMMAND, (uint)SC_MINIMIZE, 0);
+                        FloatWindowNG.SendMessage(Handle, WM_SYSCOMMAND, (uint)SC_MINIMIZE, 0);
 
                     return;
                 }

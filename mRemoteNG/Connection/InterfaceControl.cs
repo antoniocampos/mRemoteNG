@@ -1,11 +1,13 @@
 ﻿using mRemoteNG.App;
 using mRemoteNG.Connection.Protocol;
+using mRemoteNG.UI.Tabs;
+
 using System;
 using System.Drawing;
-using System.Windows.Forms;
-using mRemoteNG.UI.Tabs;
-using WeifenLuo.WinFormsUI.Docking;
 using System.Runtime.Versioning;
+using System.Windows.Forms;
+
+using WeifenLuo.WinFormsUI.Docking;
 
 namespace mRemoteNG.Connection
 {

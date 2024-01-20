@@ -1,7 +1,7 @@
-﻿using System;
+﻿using mRemoteNG.Resources.Language;
+
+using System;
 using System.Runtime.Versioning;
-using mRemoteNG.Properties;
-using mRemoteNG.Resources.Language;
 
 namespace mRemoteNG.UI.Forms.OptionsPages
 {

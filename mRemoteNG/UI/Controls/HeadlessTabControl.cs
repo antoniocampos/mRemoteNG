@@ -1,7 +1,8 @@
-﻿using System;
+﻿using mRemoteNG.App;
+
+using System;
 using System.Runtime.Versioning;
 using System.Windows.Forms;
-using mRemoteNG.App;
 
 namespace mRemoteNG.UI.Controls
 {
@@ -24,7 +25,7 @@ namespace mRemoteNG.UI.Controls
             // HeadlessTabControl
             // 
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular,
-                                                System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                                                System.Drawing.GraphicsUnit.Point, 0);
             this.ResumeLayout(false);
         }
     }

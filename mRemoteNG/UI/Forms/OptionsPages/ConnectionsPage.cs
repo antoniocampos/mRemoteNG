@@ -1,9 +1,10 @@
 ﻿using mRemoteNG.Config;
-using System;
-using System.Collections.Generic;
 using mRemoteNG.Config.Connections;
 using mRemoteNG.Properties;
 using mRemoteNG.Resources.Language;
+
+using System;
+using System.Collections.Generic;
 using System.Runtime.Versioning;
 
 namespace mRemoteNG.UI.Forms.OptionsPages

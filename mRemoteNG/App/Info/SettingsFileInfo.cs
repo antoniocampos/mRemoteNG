@@ -1,9 +1,10 @@
-﻿using System;
+﻿using mRemoteNG.Connection;
+
+using System;
 using System.IO;
 using System.Reflection;
 using System.Runtime.Versioning;
 using System.Windows.Forms;
-using mRemoteNG.Connection;
 
 namespace mRemoteNG.App.Info
 {

@@ -1,9 +1,9 @@
-﻿using System;
-using System.ComponentModel;
-using mRemoteNG.Connection;
-using mRemoteNG.Container;
-using mRemoteNG.Tools;
+﻿using mRemoteNG.Container;
 using mRemoteNG.Resources.Language;
+using mRemoteNG.Tools;
+
+using System;
+using System.ComponentModel;
 using System.Runtime.Versioning;
 
 namespace mRemoteNG.Tree.Root

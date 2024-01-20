@@ -1,9 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Security;
-using mRemoteNG.Config.DataProviders;
+﻿using mRemoteNG.Config.DataProviders;
 using mRemoteNG.Config.Serializers;
 using mRemoteNG.Credential;
+
+using System;
+using System.Collections.Generic;
+using System.Security;
 
 
 namespace mRemoteNG.Config

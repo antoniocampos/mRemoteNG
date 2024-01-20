@@ -1,6 +1,4 @@
-﻿using mRemoteNG.Properties;
-
-namespace mRemoteNG.Security.Factories
+﻿namespace mRemoteNG.Security.Factories
 {
     public class CryptoProviderFactoryFromSettings : ICryptoProviderFactory
     {

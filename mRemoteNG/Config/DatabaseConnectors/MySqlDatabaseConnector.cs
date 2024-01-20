@@ -1,7 +1,8 @@
-﻿using System.Data;
+﻿using MySql.Data.MySqlClient;
+
+using System.Data;
 using System.Data.Common;
 using System.Threading.Tasks;
-using MySql.Data.MySqlClient;
 
 // ReSharper disable ArrangeAccessorOwnerBody
 

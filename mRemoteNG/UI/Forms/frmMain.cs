@@ -1,5 +1,6 @@
 ﻿#region Usings
 using Microsoft.Win32;
+
 using mRemoteNG.App;
 using mRemoteNG.App.Info;
 using mRemoteNG.App.Initialization;
@@ -11,12 +12,16 @@ using mRemoteNG.Config.Settings;
 using mRemoteNG.Connection;
 using mRemoteNG.Messages;
 using mRemoteNG.Messages.MessageWriters;
+using mRemoteNG.Resources.Language;
 using mRemoteNG.Themes;
 using mRemoteNG.Tools;
+using mRemoteNG.UI.Controls;
 using mRemoteNG.UI.Menu;
+using mRemoteNG.UI.Panels;
 using mRemoteNG.UI.Tabs;
 using mRemoteNG.UI.TaskDialog;
 using mRemoteNG.UI.Window;
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -25,14 +30,12 @@ using System.Drawing;
 using System.Globalization;
 using System.IO;
 using System.Runtime.InteropServices;
+using System.Runtime.Versioning;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using mRemoteNG.UI.Panels;
+
 using WeifenLuo.WinFormsUI.Docking;
-using mRemoteNG.UI.Controls;
-using mRemoteNG.Resources.Language;
-using System.Runtime.Versioning;
 #endregion
 
 // ReSharper disable MemberCanBePrivate.Global

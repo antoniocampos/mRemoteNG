@@ -1,10 +1,11 @@
 using mRemoteNG.Tools;
+
 using System.ComponentModel;
 
 
 namespace mRemoteNG.Credential
 {
-	public class CredentialInfo
+    public class CredentialInfo
 	{
 	    #region Public Properties
         [LocalizedAttributes.LocalizedCategory("strCategoryDisplay"), 

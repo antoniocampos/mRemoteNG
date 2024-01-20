@@ -1,8 +1,9 @@
-﻿using System;
-using mRemoteNG.Themes;
+﻿using mRemoteNG.Themes;
+
+using System;
 using System.Drawing;
-using System.Windows.Forms;
 using System.Runtime.Versioning;
+using System.Windows.Forms;
 
 namespace mRemoteNG.UI.Controls
 {
@@ -105,7 +106,7 @@ namespace mRemoteNG.UI.Controls
             // NGLabel
             // 
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular,
-                                                System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                                                System.Drawing.GraphicsUnit.Point, 0);
             this.ResumeLayout(false);
         }
     }

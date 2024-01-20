@@ -1,5 +1,6 @@
-﻿using System;
-using mRemoteNG.Connection;
+﻿using mRemoteNG.Connection;
+
+using System;
 
 
 namespace mRemoteNG.Config.Putty

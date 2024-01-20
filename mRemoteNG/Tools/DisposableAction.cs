@@ -2,12 +2,12 @@
 
 namespace mRemoteNG.Tools
 {
-	/// <summary>
-	/// Represents an action that will be executed when the <see cref="Dispose"/>
-	/// method is called. Useful for creating Using blocks around logical start/end
-	/// actions.
-	/// </summary>
-	public class DisposableAction : IDisposable
+    /// <summary>
+    /// Represents an action that will be executed when the <see cref="Dispose"/>
+    /// method is called. Useful for creating Using blocks around logical start/end
+    /// actions.
+    /// </summary>
+    public class DisposableAction : IDisposable
 	{
 		private bool _isDisposed;
 		private readonly Action _disposeAction;

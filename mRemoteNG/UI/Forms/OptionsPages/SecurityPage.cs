@@ -1,15 +1,15 @@
-﻿using System;
+﻿using mRemoteNG.App;
+using mRemoteNG.Config.Serializers.ConnectionSerializers.Xml;
+using mRemoteNG.Resources.Language;
+using mRemoteNG.Security;
+using mRemoteNG.Security.Factories;
+
+using System;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
-using System.Windows.Forms;
-using mRemoteNG.App;
-using mRemoteNG.Config.Serializers.ConnectionSerializers.Xml;
-using mRemoteNG.Properties;
-using mRemoteNG.Security;
-using mRemoteNG.Security.Factories;
-using mRemoteNG.Resources.Language;
 using System.Runtime.Versioning;
+using System.Windows.Forms;
 
 namespace mRemoteNG.UI.Forms.OptionsPages
 {

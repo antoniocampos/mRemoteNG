@@ -1,10 +1,10 @@
-﻿using System.Diagnostics;
+﻿using mRemoteNG.App;
+using mRemoteNG.Resources.Language;
+
+using System.Diagnostics;
 using System.IO;
 using System.Runtime.Versioning;
 using System.Windows.Forms;
-using mRemoteNG.App;
-using mRemoteNG.Properties;
-using mRemoteNG.Resources.Language;
 
 namespace mRemoteNG.UI.Forms.OptionsPages
 {

@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using mRemoteNG.Credential;
+
+using System.Collections.Generic;
 using System.Windows.Forms;
-using mRemoteNG.Credential;
 
 namespace mRemoteNG.UI.Controls
 {

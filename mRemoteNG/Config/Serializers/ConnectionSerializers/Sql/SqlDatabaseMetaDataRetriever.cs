@@ -1,9 +1,4 @@
-﻿using System;
-using System.Data.Common;
-using System.Globalization;
-using System.Runtime.Versioning;
-using System.Security;
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
 using mRemoteNG.App.Info;
 using mRemoteNG.Config.DatabaseConnectors;
 using mRemoteNG.Messages;
@@ -11,6 +6,12 @@ using mRemoteNG.Security;
 using mRemoteNG.Security.SymmetricEncryption;
 using mRemoteNG.Tools;
 using mRemoteNG.Tree.Root;
+
+using System;
+using System.Data.Common;
+using System.Globalization;
+using System.Runtime.Versioning;
+using System.Security;
 
 namespace mRemoteNG.Config.Serializers.ConnectionSerializers.Sql
 {

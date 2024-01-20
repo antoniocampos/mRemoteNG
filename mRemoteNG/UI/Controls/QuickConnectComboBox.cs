@@ -1,11 +1,12 @@
-﻿using System;
-using System.Drawing;
-using System.Runtime.Versioning;
-using System.Windows.Forms;
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
 using mRemoteNG.Connection;
 using mRemoteNG.Connection.Protocol;
 using mRemoteNG.Resources.Language;
+
+using System;
+using System.Drawing;
+using System.Runtime.Versioning;
+using System.Windows.Forms;
 
 namespace mRemoteNG.UI.Controls
 {

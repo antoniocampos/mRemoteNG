@@ -1,17 +1,20 @@
-﻿using System;
-using System.Drawing;
-using System.Collections;
-using System.Globalization;
-using System.Windows.Forms;
-using System.Text;
-using WeifenLuo.WinFormsUI.Docking;
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
 using mRemoteNG.Messages;
-using mRemoteNG.UI.Forms;
-using mRemoteNG.Themes;
 using mRemoteNG.Resources.Language;
-using Message = mRemoteNG.Messages.Message;
+using mRemoteNG.Themes;
+using mRemoteNG.UI.Forms;
+
+using System;
+using System.Collections;
+using System.Drawing;
+using System.Globalization;
 using System.Runtime.Versioning;
+using System.Text;
+using System.Windows.Forms;
+
+using WeifenLuo.WinFormsUI.Docking;
+
+using Message = mRemoteNG.Messages.Message;
 
 namespace mRemoteNG.UI.Window
 {

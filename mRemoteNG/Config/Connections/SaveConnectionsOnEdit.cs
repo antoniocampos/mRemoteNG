@@ -1,9 +1,9 @@
-﻿using System;
+﻿using mRemoteNG.Connection;
+using mRemoteNG.UI.Forms;
+
+using System;
 using System.Collections.Specialized;
 using System.ComponentModel;
-using mRemoteNG.Connection;
-using mRemoteNG.UI.Forms;
-using mRemoteNG.Properties;
 using System.Runtime.Versioning;
 
 namespace mRemoteNG.Config.Connections

@@ -1,11 +1,12 @@
-﻿using System.Collections.Generic;
-using System.Runtime.Versioning;
-using mRemoteNG.Connection;
+﻿using mRemoteNG.Connection;
 using mRemoteNG.Connection.Protocol;
 using mRemoteNG.Container;
 using mRemoteNG.Tools;
 using mRemoteNG.Tree;
 using mRemoteNG.Tree.Root;
+
+using System.Collections.Generic;
+using System.Runtime.Versioning;
 
 namespace mRemoteNG.Config.Serializers.MiscSerializers
 {

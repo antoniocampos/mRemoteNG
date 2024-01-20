@@ -1,8 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using mRemoteNG.Config.DataProviders;
+﻿using mRemoteNG.Config.DataProviders;
 using mRemoteNG.Config.Serializers.CredentialProviderSerializer;
 using mRemoteNG.Credential;
+
+using System;
+using System.Collections.Generic;
 
 namespace mRemoteNG.Config
 {

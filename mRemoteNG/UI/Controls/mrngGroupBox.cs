@@ -1,7 +1,8 @@
-﻿using System.Drawing;
+﻿using mRemoteNG.Themes;
+
+using System.Drawing;
 using System.Runtime.Versioning;
 using System.Windows.Forms;
-using mRemoteNG.Themes;
 
 namespace mRemoteNG.UI.Controls
 {
@@ -106,7 +107,7 @@ namespace mRemoteNG.UI.Controls
             // NGGroupBox
             // 
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular,
-                                                System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                                                System.Drawing.GraphicsUnit.Point, 0);
             this.ResumeLayout(false);
         }
     }

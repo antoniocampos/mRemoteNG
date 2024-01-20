@@ -1,16 +1,18 @@
-﻿using System;
-using System.Windows.Forms;
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
 using mRemoteNG.App.Info;
 using mRemoteNG.Config;
 using mRemoteNG.Connection;
 using mRemoteNG.Connection.Protocol;
 using mRemoteNG.Connection.Protocol.VNC;
 using mRemoteNG.Properties;
-using mRemoteNG.UI.TaskDialog;
-using WeifenLuo.WinFormsUI.Docking;
 using mRemoteNG.Resources.Language;
+using mRemoteNG.UI.TaskDialog;
+
+using System;
 using System.Runtime.Versioning;
+using System.Windows.Forms;
+
+using WeifenLuo.WinFormsUI.Docking;
 
 namespace mRemoteNG.UI.Tabs
 {

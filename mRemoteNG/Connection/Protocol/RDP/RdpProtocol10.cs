@@ -1,6 +1,7 @@
-﻿using System.Runtime.Versioning;
+﻿using AxMSTSCLib;
+
+using System.Runtime.Versioning;
 using System.Windows.Forms;
-using AxMSTSCLib;
 
 namespace mRemoteNG.Connection.Protocol.RDP
 {

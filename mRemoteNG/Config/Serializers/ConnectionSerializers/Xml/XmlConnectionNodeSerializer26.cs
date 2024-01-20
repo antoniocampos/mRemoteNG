@@ -1,10 +1,11 @@
-﻿using System;
+﻿using mRemoteNG.Connection;
+using mRemoteNG.Container;
+using mRemoteNG.Security;
+
+using System;
 using System.Runtime.Versioning;
 using System.Security;
 using System.Xml.Linq;
-using mRemoteNG.Connection;
-using mRemoteNG.Container;
-using mRemoteNG.Security;
 
 namespace mRemoteNG.Config.Serializers.ConnectionSerializers.Xml
 {

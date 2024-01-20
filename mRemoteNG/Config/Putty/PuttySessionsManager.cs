@@ -1,9 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using mRemoteNG.Tools;
+using mRemoteNG.Tree.Root;
+
+using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Runtime.Versioning;
-using mRemoteNG.Tools;
-using mRemoteNG.Tree.Root;
 
 // ReSharper disable ArrangeAccessorOwnerBody
 

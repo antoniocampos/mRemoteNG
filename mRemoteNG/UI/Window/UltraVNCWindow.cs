@@ -1,8 +1,10 @@
-﻿using System;
-using mRemoteNG.App;
-using WeifenLuo.WinFormsUI.Docking;
+﻿using mRemoteNG.App;
 using mRemoteNG.Resources.Language;
+
+using System;
 using System.Runtime.Versioning;
+
+using WeifenLuo.WinFormsUI.Docking;
 
 
 namespace mRemoteNG.UI.Window
@@ -52,10 +54,10 @@ namespace mRemoteNG.UI.Window
             // pnlContainer
             // 
             this.pnlContainer.Anchor =
-                ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top |
+                (((System.Windows.Forms.AnchorStyles.Top |
                                                         System.Windows.Forms.AnchorStyles.Bottom)
                                                      | System.Windows.Forms.AnchorStyles.Left)
-                                                    | System.Windows.Forms.AnchorStyles.Right)));
+                                                    | System.Windows.Forms.AnchorStyles.Right);
             this.pnlContainer.Location = new System.Drawing.Point(0, 27);
             this.pnlContainer.Name = "pnlContainer";
             this.pnlContainer.Size = new System.Drawing.Size(446, 335);
@@ -69,7 +71,7 @@ namespace mRemoteNG.UI.Window
             this.Controls.Add(this.pnlContainer);
             this.Controls.Add(this.tsMain);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular,
-                                                System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                                                System.Drawing.GraphicsUnit.Point, 0);
             this.Name = "UltraVNCWindow";
             this.TabText = "UltraVNC SC";
             this.Text = "UltraVNC SC";

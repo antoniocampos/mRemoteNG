@@ -1,8 +1,9 @@
-﻿using System;
+﻿using mRemoteNG.Credential;
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
-using mRemoteNG.Credential;
 
 
 namespace mRemoteNG.Config.Serializers.CredentialProviderSerializer

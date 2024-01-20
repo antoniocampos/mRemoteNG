@@ -1,12 +1,14 @@
-﻿using System.Drawing;
-using System.Linq;
-using System.Windows.Forms;
-using BrightIdeasSoftware;
+﻿using BrightIdeasSoftware;
+
 using mRemoteNG.Connection;
 using mRemoteNG.Container;
-using mRemoteNG.Tree.Root;
 using mRemoteNG.Resources.Language;
+using mRemoteNG.Tree.Root;
+
+using System.Drawing;
+using System.Linq;
 using System.Runtime.Versioning;
+using System.Windows.Forms;
 
 namespace mRemoteNG.Tree
 {

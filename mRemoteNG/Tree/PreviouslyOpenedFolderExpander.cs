@@ -1,7 +1,8 @@
-﻿using System.Linq;
-using System.Runtime.Versioning;
-using mRemoteNG.Container;
+﻿using mRemoteNG.Container;
 using mRemoteNG.UI.Controls.ConnectionTree;
+
+using System.Linq;
+using System.Runtime.Versioning;
 
 
 namespace mRemoteNG.Tree

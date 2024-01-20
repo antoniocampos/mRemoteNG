@@ -1,15 +1,16 @@
 ﻿#region  Usings
-using mRemoteNG.UI.Forms.OptionsPages;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Windows.Forms;
-using mRemoteNG.Themes;
-using System.Configuration;
 using mRemoteNG.Properties;
 using mRemoteNG.Resources.Language;
+using mRemoteNG.Themes;
+using mRemoteNG.UI.Forms.OptionsPages;
+
+using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Diagnostics;
+using System.Linq;
 using System.Runtime.Versioning;
+using System.Windows.Forms;
 #endregion
 
 namespace mRemoteNG.UI.Forms

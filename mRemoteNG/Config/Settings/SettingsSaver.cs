@@ -1,12 +1,13 @@
-﻿using System;
-using System.Runtime.Versioning;
-using System.Windows.Forms;
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
 using mRemoteNG.App.Info;
 using mRemoteNG.Config.DataProviders;
 using mRemoteNG.Tools;
 using mRemoteNG.UI.Controls;
 using mRemoteNG.UI.Forms;
+
+using System;
+using System.Runtime.Versioning;
+using System.Windows.Forms;
 
 namespace mRemoteNG.Config.Settings
 {

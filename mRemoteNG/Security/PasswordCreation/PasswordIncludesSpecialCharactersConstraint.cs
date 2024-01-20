@@ -1,8 +1,9 @@
-﻿using System;
+﻿using mRemoteNG.Resources.Language;
+
+using System;
 using System.Collections.Generic;
 using System.Security;
 using System.Text.RegularExpressions;
-using mRemoteNG.Resources.Language;
 
 
 namespace mRemoteNG.Security.PasswordCreation

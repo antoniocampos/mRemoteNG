@@ -1,11 +1,11 @@
-﻿using System.Collections.Generic;
-using System;
-using System.Diagnostics;
-using System.Text;
-using mRemoteNG.App;
-using mRemoteNG.Properties;
+﻿using mRemoteNG.App;
 using mRemoteNG.Tools.Cmdline;
+
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.Runtime.Versioning;
+using System.Text;
 
 namespace mRemoteNG.Tools
 {

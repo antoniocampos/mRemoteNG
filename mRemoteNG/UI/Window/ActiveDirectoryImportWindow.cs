@@ -1,12 +1,14 @@
-﻿using System;
-using System.Linq;
-using System.Windows.Forms;
-using WeifenLuo.WinFormsUI.Docking;
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
 using mRemoteNG.Container;
-using mRemoteNG.Themes;
 using mRemoteNG.Resources.Language;
+using mRemoteNG.Themes;
+
+using System;
+using System.Linq;
 using System.Runtime.Versioning;
+using System.Windows.Forms;
+
+using WeifenLuo.WinFormsUI.Docking;
 
 namespace mRemoteNG.UI.Window
 {

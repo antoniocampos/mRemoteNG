@@ -1,14 +1,12 @@
-﻿using mRemoteNG.Config;
+﻿using Microsoft.WindowsAPICodePack.Dialogs;
+
+using mRemoteNG.Config.ACL;
+using mRemoteNG.Resources.Language;
+
 using System;
 using System.Collections.Generic;
-using System.Windows.Forms;
-using Microsoft.WindowsAPICodePack.Dialogs;
-using mRemoteNG.App;
-using mRemoteNG.Config.Connections;
-using mRemoteNG.Config.ACL;
-using mRemoteNG.Security;
-using mRemoteNG.Resources.Language;
 using System.Runtime.Versioning;
+using System.Windows.Forms;
 
 namespace mRemoteNG.UI.Forms.OptionsPages
 {
@@ -223,15 +221,15 @@ namespace mRemoteNG.UI.Forms.OptionsPages
             Properties.OptionsBackupPage.Default.cbBackupNameFormatACL = (int)cbBackupNameFormatACL.SelectedValue;
             Properties.OptionsBackupPage.Default.cbBackupLocationACL = (int)cbBackupLocationACL.SelectedValue;
 
-            Properties.OptionsBackupPage.Default.BackupFileNameFormat = (string)txtBackupNameFormat.Text;
+            Properties.OptionsBackupPage.Default.BackupFileNameFormat = txtBackupNameFormat.Text;
 
-            Properties.OptionsBackupPage.Default.BackupConnectionsOnExit = (bool)cbMakeBackupOnExit.Checked;
-            Properties.OptionsBackupPage.Default.BackupConnectionsOnEdit = (bool)cbMakeBackupOnEdit.Checked;
-            Properties.OptionsBackupPage.Default.BackupConnectionsOnSave = (bool)cbMakeBackupOnSave.Checked;
+            Properties.OptionsBackupPage.Default.BackupConnectionsOnExit = cbMakeBackupOnExit.Checked;
+            Properties.OptionsBackupPage.Default.BackupConnectionsOnEdit = cbMakeBackupOnEdit.Checked;
+            Properties.OptionsBackupPage.Default.BackupConnectionsOnSave = cbMakeBackupOnSave.Checked;
 
             Properties.OptionsBackupPage.Default.BackupFileKeepCount = (int)numMaxBackups.Value;
 
-            Properties.OptionsBackupPage.Default.BackupLocation = (string)txtConnectionsBackupPath.Text;
+            Properties.OptionsBackupPage.Default.BackupLocation = txtConnectionsBackupPath.Text;
 
             Properties.OptionsBackupPage.Default.cbBacupPageInOptionMenu = cbBacupPageInOptionMenu.Checked;
 

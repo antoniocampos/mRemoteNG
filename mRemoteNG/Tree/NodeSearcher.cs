@@ -1,7 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using mRemoteNG.Connection;
+
+using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Versioning;
-using mRemoteNG.Connection;
 
 
 namespace mRemoteNG.Tree

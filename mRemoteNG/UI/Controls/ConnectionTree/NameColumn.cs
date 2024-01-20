@@ -1,5 +1,7 @@
 ﻿using BrightIdeasSoftware;
+
 using mRemoteNG.Connection;
+
 using System.Runtime.Versioning;
 
 namespace mRemoteNG.UI.Controls.ConnectionTree

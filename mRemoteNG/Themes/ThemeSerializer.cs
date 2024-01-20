@@ -1,7 +1,8 @@
 ﻿using System.IO;
-using WeifenLuo.WinFormsUI.Docking;
 using System.Linq;
 using System.Runtime.Versioning;
+
+using WeifenLuo.WinFormsUI.Docking;
 
 namespace mRemoteNG.Themes
 {

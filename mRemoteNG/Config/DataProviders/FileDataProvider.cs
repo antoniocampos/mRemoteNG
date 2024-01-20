@@ -1,7 +1,8 @@
-﻿using System;
+﻿using mRemoteNG.App;
+
+using System;
 using System.IO;
 using System.Runtime.Versioning;
-using mRemoteNG.App;
 
 namespace mRemoteNG.Config.DataProviders
 {

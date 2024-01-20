@@ -1,11 +1,13 @@
-﻿using System;
-using System.IO;
-using System.Runtime.Versioning;
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
 using mRemoteNG.App.Info;
 using mRemoteNG.Config.DataProviders;
 using mRemoteNG.Config.Serializers;
 using mRemoteNG.UI.Forms;
+
+using System;
+using System.IO;
+using System.Runtime.Versioning;
+
 using WeifenLuo.WinFormsUI.Docking;
 
 namespace mRemoteNG.Config.Settings

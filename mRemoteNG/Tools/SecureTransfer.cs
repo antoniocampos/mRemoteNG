@@ -1,11 +1,14 @@
-﻿using System;
-using System.IO;
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
+using mRemoteNG.Resources.Language;
+
 using Renci.SshNet;
 using Renci.SshNet.Sftp;
-using static System.IO.FileMode;
-using mRemoteNG.Resources.Language;
+
+using System;
+using System.IO;
 using System.Runtime.Versioning;
+
+using static System.IO.FileMode;
 
 namespace mRemoteNG.Tools
 {

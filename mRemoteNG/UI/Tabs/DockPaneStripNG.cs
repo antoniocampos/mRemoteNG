@@ -1,14 +1,14 @@
-﻿using System;
+﻿using mRemoteNG.Connection;
+using mRemoteNG.Resources.Language;
+
+using System;
 using System.ComponentModel;
 using System.Drawing;
 using System.Drawing.Drawing2D;
-using System.Security.Permissions;
-using System.Windows.Forms;
-using mRemoteNG.Connection;
-using mRemoteNG.Properties;
-using WeifenLuo.WinFormsUI.Docking;
-using mRemoteNG.Resources.Language;
 using System.Runtime.Versioning;
+using System.Windows.Forms;
+
+using WeifenLuo.WinFormsUI.Docking;
 
 namespace mRemoteNG.UI.Tabs
 {
@@ -96,7 +96,7 @@ namespace mRemoteNG.UI.Tabs
 
         private InertButton m_buttonOverflow;
         private InertButton m_buttonWindowList;
-        private ToolTip m_toolTip;
+        private readonly ToolTip m_toolTip;
         private Font m_font;
         private Font m_boldFont;
         private int m_startDisplayingTab;

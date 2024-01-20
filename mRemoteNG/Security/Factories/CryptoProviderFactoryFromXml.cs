@@ -1,7 +1,8 @@
-﻿using System;
+﻿using mRemoteNG.Security.SymmetricEncryption;
+
+using System;
 using System.Runtime.Versioning;
 using System.Xml.Linq;
-using mRemoteNG.Security.SymmetricEncryption;
 
 namespace mRemoteNG.Security.Factories
 {

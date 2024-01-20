@@ -1,6 +1,7 @@
-﻿using System;
+﻿using mRemoteNG.App.Info;
+
+using System;
 using System.Runtime.Versioning;
-using mRemoteNG.App.Info;
 
 namespace mRemoteNG.UI.Forms
 {

@@ -1,6 +1,7 @@
+using mRemoteNG.UI.Window;
+
 using System;
 using System.Collections;
-using mRemoteNG.UI.Window;
 
 namespace mRemoteNG.UI
 {

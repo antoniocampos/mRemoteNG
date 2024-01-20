@@ -1,11 +1,13 @@
-﻿using System;
-using System.Runtime.Versioning;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using mRemoteNG.Messages.MessageFilteringOptions;
+﻿using mRemoteNG.Messages.MessageFilteringOptions;
 using mRemoteNG.Messages.MessageWriters;
 using mRemoteNG.UI.Forms;
 using mRemoteNG.UI.Window;
+
+using System;
+using System.Runtime.Versioning;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
 using WeifenLuo.WinFormsUI.Docking;
 
 namespace mRemoteNG.Messages.WriterDecorators

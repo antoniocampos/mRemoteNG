@@ -1,6 +1,7 @@
-﻿using System;
+﻿using mRemoteNG.Connection.Protocol;
+
+using System;
 using System.Diagnostics;
-using mRemoteNG.Connection.Protocol;
 using System.IO;
 using System.Runtime.Versioning;
 

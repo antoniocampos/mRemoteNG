@@ -1,8 +1,10 @@
-﻿using System.ComponentModel;
+﻿using BrightIdeasSoftware;
+
+using mRemoteNG.Themes;
+
+using System.ComponentModel;
 using System.Drawing;
 using System.Runtime.Versioning;
-using BrightIdeasSoftware;
-using mRemoteNG.Themes;
 
 namespace mRemoteNG.UI.Controls
 {

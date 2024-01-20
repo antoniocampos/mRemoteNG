@@ -1,11 +1,12 @@
-﻿using mRemoteNG.Themes;
+﻿using mRemoteNG.Resources.Language;
+using mRemoteNG.Themes;
+using mRemoteNG.UI.Controls;
+
 using System;
 using System.Collections.Generic;
 using System.Drawing;
-using System.Windows.Forms;
-using mRemoteNG.UI.Controls;
-using mRemoteNG.Resources.Language;
 using System.Runtime.Versioning;
+using System.Windows.Forms;
 
 namespace mRemoteNG.UI.TaskDialog
 {
@@ -27,7 +28,7 @@ namespace mRemoteNG.UI.TaskDialog
         private readonly DisplayProperties _display = new DisplayProperties();
         private Control _focusControl;
 
-        private bool _isVista = false;
+        private readonly bool _isVista = false;
 
         private int _mainInstructionLeftMargin;
         private int _mainInstructionRightMargin;

@@ -1,5 +1,6 @@
-﻿using System;
-using mRemoteNG.Connection.Protocol;
+﻿using mRemoteNG.Connection.Protocol;
+
+using System;
 
 namespace mRemoteNG.Tools.Attributes
 {

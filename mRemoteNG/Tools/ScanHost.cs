@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Runtime.Versioning;
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
 using mRemoteNG.Connection.Protocol.Http;
 using mRemoteNG.Connection.Protocol.RDP;
 using mRemoteNG.Connection.Protocol.Rlogin;
@@ -10,6 +7,10 @@ using mRemoteNG.Connection.Protocol.Telnet;
 using mRemoteNG.Connection.Protocol.VNC;
 using mRemoteNG.Messages;
 using mRemoteNG.Resources.Language;
+
+using System;
+using System.Collections;
+using System.Runtime.Versioning;
 
 
 namespace mRemoteNG.Tools

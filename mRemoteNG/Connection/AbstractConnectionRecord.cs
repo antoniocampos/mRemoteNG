@@ -1,13 +1,14 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel;
-using mRemoteNG.Connection.Protocol;
+﻿using mRemoteNG.Connection.Protocol;
 using mRemoteNG.Connection.Protocol.Http;
 using mRemoteNG.Connection.Protocol.RDP;
 using mRemoteNG.Connection.Protocol.VNC;
 using mRemoteNG.Properties;
+using mRemoteNG.Resources.Language;
 using mRemoteNG.Tools;
 using mRemoteNG.Tools.Attributes;
-using mRemoteNG.Resources.Language;
+
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Runtime.Versioning;
 
 namespace mRemoteNG.Connection

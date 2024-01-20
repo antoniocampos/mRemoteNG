@@ -1,6 +1,7 @@
-﻿using System;
+﻿using mRemoteNG.Connection;
+
+using System;
 using System.Runtime.Versioning;
-using mRemoteNG.Connection;
 
 namespace mRemoteNG.Tree.ClickHandlers
 {

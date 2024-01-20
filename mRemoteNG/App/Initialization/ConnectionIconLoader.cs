@@ -1,7 +1,8 @@
-﻿using System;
+﻿using mRemoteNG.Connection;
+
+using System;
 using System.IO;
 using System.Runtime.Versioning;
-using mRemoteNG.Connection;
 
 
 namespace mRemoteNG.App.Initialization

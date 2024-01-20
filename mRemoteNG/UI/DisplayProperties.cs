@@ -1,10 +1,11 @@
-﻿using System;
+﻿using mRemoteNG.Tools;
+using mRemoteNG.UI.GraphicsUtilities;
+
+using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
 using System.Runtime.Versioning;
-using mRemoteNG.Tools;
-using mRemoteNG.UI.GraphicsUtilities;
 
 namespace mRemoteNG.UI
 {

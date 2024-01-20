@@ -1,7 +1,8 @@
-﻿using System;
+﻿using mRemoteNG.Tools;
+
+using System;
 using System.Linq;
 using System.Security;
-using mRemoteNG.Tools;
 
 namespace mRemoteNG.Security.Authentication
 {

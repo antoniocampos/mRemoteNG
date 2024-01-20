@@ -1,14 +1,16 @@
-﻿using System;
+﻿using Microsoft.Win32;
+
+using mRemoteNG.App;
+using mRemoteNG.Connection;
+using mRemoteNG.Connection.Protocol;
+using mRemoteNG.Messages;
+
+using System;
 using System.Collections.Generic;
 using System.Management;
 using System.Net;
 using System.Runtime.Versioning;
 using System.Security.Principal;
-using Microsoft.Win32;
-using mRemoteNG.App;
-using mRemoteNG.Connection;
-using mRemoteNG.Connection.Protocol;
-using mRemoteNG.Messages;
 
 
 namespace mRemoteNG.Config.Putty

@@ -1,12 +1,14 @@
 ﻿using mRemoteNG.App;
 using mRemoteNG.App.Info;
+using mRemoteNG.Messages;
 using mRemoteNG.UI.Forms;
 using mRemoteNG.UI.Window;
+
 using System;
 using System.IO;
-using mRemoteNG.Messages;
-using WeifenLuo.WinFormsUI.Docking;
 using System.Runtime.Versioning;
+
+using WeifenLuo.WinFormsUI.Docking;
 
 namespace mRemoteNG.Config.Settings
 {

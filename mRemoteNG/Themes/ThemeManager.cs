@@ -1,4 +1,6 @@
 ﻿using mRemoteNG.App;
+using mRemoteNG.Messages;
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -6,10 +8,9 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using mRemoteNG.Messages;
-using mRemoteNG.Properties;
-using WeifenLuo.WinFormsUI.Docking;
 using System.Runtime.Versioning;
+
+using WeifenLuo.WinFormsUI.Docking;
 
 namespace mRemoteNG.Themes
 {

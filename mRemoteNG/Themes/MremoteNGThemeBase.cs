@@ -1,6 +1,8 @@
-﻿using System.Drawing;
+﻿using mRemoteNG.UI.Tabs;
+
+using System.Drawing;
 using System.Runtime.Versioning;
-using mRemoteNG.UI.Tabs;
+
 using WeifenLuo.WinFormsUI.Docking;
 using WeifenLuo.WinFormsUI.ThemeVS2015;
 

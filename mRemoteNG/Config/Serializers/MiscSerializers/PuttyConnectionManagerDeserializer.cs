@@ -1,12 +1,13 @@
-﻿using System;
-using System.IO;
-using System.Runtime.Versioning;
-using System.Xml;
-using mRemoteNG.Connection;
+﻿using mRemoteNG.Connection;
 using mRemoteNG.Connection.Protocol;
 using mRemoteNG.Container;
 using mRemoteNG.Tree;
 using mRemoteNG.Tree.Root;
+
+using System;
+using System.IO;
+using System.Runtime.Versioning;
+using System.Xml;
 
 namespace mRemoteNG.Config.Serializers.MiscSerializers
 {

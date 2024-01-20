@@ -1,6 +1,7 @@
-﻿using System;
+﻿using Microsoft.Win32;
+
+using System;
 using System.Runtime.Versioning;
-using Microsoft.Win32;
 
 
 namespace mRemoteNG.Tools.WindowsRegistry

@@ -1,6 +1,7 @@
-﻿using System;
-using mRemoteNG.Messages.MessageFilteringOptions;
+﻿using mRemoteNG.Messages.MessageFilteringOptions;
 using mRemoteNG.Messages.MessageWriters;
+
+using System;
 
 namespace mRemoteNG.Messages.WriterDecorators
 {

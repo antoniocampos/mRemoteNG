@@ -1,10 +1,11 @@
-﻿using System;
+﻿using mRemoteNG.Messages;
+using mRemoteNG.Resources.Language;
+
+using System;
 using System.Management;
 using System.Runtime.Versioning;
 using System.Threading;
 using System.Windows.Forms;
-using mRemoteNG.Messages;
-using mRemoteNG.Resources.Language;
 
 namespace mRemoteNG.App.Initialization
 {

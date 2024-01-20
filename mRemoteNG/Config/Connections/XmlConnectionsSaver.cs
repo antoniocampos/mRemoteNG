@@ -1,13 +1,13 @@
-﻿using System;
-using System.Linq;
-using mRemoteNG.App;
+﻿using mRemoteNG.App;
 using mRemoteNG.Config.DataProviders;
 using mRemoteNG.Config.Serializers.ConnectionSerializers.Xml;
 using mRemoteNG.Security;
 using mRemoteNG.Security.Factories;
 using mRemoteNG.Tree;
 using mRemoteNG.Tree.Root;
-using mRemoteNG.Properties;
+
+using System;
+using System.Linq;
 using System.Runtime.Versioning;
 
 namespace mRemoteNG.Config.Connections

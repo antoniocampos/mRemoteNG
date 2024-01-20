@@ -1,7 +1,8 @@
-﻿using System.Collections;
-using mRemoteNG.Connection;
+﻿using mRemoteNG.Connection;
 using mRemoteNG.Tree;
 using mRemoteNG.Tree.Root;
+
+using System.Collections;
 
 namespace mRemoteNG.UI.Controls.ConnectionTree
 {

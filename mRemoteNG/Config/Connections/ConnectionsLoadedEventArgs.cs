@@ -1,6 +1,7 @@
-﻿using System;
-using mRemoteNG.Tools;
+﻿using mRemoteNG.Tools;
 using mRemoteNG.Tree;
+
+using System;
 
 namespace mRemoteNG.Config.Connections
 {

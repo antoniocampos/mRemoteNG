@@ -1,7 +1,9 @@
-﻿using System;
-using System.Drawing;
+﻿using Microsoft.Win32.SafeHandles;
+
 using mRemoteNG.App;
-using Microsoft.Win32.SafeHandles;
+
+using System;
+using System.Drawing;
 using System.Runtime.Versioning;
 
 // ReSharper disable MemberCanBeMadeStatic.Global

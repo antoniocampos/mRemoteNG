@@ -1,7 +1,8 @@
-﻿using System;
+﻿using mRemoteNG.App;
+
+using System;
 using System.ComponentModel;
 using System.Runtime.Versioning;
-using mRemoteNG.App;
 
 
 namespace mRemoteNG.Connection
