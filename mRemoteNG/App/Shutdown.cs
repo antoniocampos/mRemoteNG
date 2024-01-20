@@ -1,14 +1,14 @@
-﻿using mRemoteNG.Tools;
-using System;
-using System.Diagnostics;
-using System.Windows.Forms;
-using mRemoteNG.Config.Connections;
+﻿using mRemoteNG.Config.Connections;
 using mRemoteNG.Config.Putty;
-using mRemoteNG.Properties;
+using mRemoteNG.Resources.Language;
+using mRemoteNG.Tools;
 using mRemoteNG.UI.Controls;
 using mRemoteNG.UI.Forms;
-using mRemoteNG.Resources.Language;
+
+using System;
+using System.Diagnostics;
 using System.Runtime.Versioning;
+using System.Windows.Forms;
 
 // ReSharper disable ArrangeAccessorOwnerBody
 

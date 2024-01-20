@@ -1,11 +1,11 @@
-﻿using System;
+﻿using mRemoteNG.UI.Forms;
+
+using System;
 using System.Diagnostics;
 using System.Drawing;
 using System.Runtime.Versioning;
 using System.Threading;
 using System.Windows.Forms;
-using mRemoteNG.Config.Settings;
-using mRemoteNG.UI.Forms;
 
 namespace mRemoteNG.App
 {

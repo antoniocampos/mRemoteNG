@@ -1,10 +1,4 @@
-﻿using System;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Globalization;
-using System.Runtime.Versioning;
-using System.Threading.Tasks;
-using mRemoteNG.App.Info;
+﻿using mRemoteNG.App.Info;
 using mRemoteNG.App.Initialization;
 using mRemoteNG.App.Update;
 using mRemoteNG.Config.Connections.Multiuser;
@@ -15,6 +9,12 @@ using mRemoteNG.Tools;
 using mRemoteNG.Tools.Cmdline;
 using mRemoteNG.UI;
 using mRemoteNG.UI.Forms;
+
+using System;
+using System.Diagnostics;
+using System.Globalization;
+using System.Runtime.Versioning;
+using System.Threading.Tasks;
 
 
 namespace mRemoteNG.App

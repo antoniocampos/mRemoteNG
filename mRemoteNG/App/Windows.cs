@@ -1,10 +1,11 @@
 ﻿#region Usings
-using System;
-using System.Runtime.Versioning;
 using mRemoteNG.Resources.Language;
 using mRemoteNG.UI;
 using mRemoteNG.UI.Forms;
 using mRemoteNG.UI.Window;
+
+using System;
+using System.Runtime.Versioning;
 #endregion
 
 namespace mRemoteNG.App

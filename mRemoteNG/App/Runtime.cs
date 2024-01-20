@@ -4,20 +4,20 @@ using mRemoteNG.Connection;
 using mRemoteNG.Credential;
 using mRemoteNG.Credential.Repositories;
 using mRemoteNG.Messages;
+using mRemoteNG.Resources.Language;
 using mRemoteNG.Security;
 using mRemoteNG.Tools;
 using mRemoteNG.Tree.Root;
 using mRemoteNG.UI;
 using mRemoteNG.UI.Forms;
 using mRemoteNG.UI.TaskDialog;
+
 using System;
 using System.IO;
+using System.Runtime.Versioning;
 using System.Security;
 using System.Threading;
 using System.Windows.Forms;
-using mRemoteNG.Properties;
-using mRemoteNG.Resources.Language;
-using System.Runtime.Versioning;
 
 namespace mRemoteNG.App
 {

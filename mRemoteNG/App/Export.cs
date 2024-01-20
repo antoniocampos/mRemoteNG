@@ -1,8 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Runtime.Versioning;
-using System.Windows.Forms;
-using mRemoteNG.Config.Connections;
+﻿using mRemoteNG.Config.Connections;
 using mRemoteNG.Config.DataProviders;
 using mRemoteNG.Config.Serializers;
 using mRemoteNG.Config.Serializers.ConnectionSerializers.Csv;
@@ -14,6 +10,11 @@ using mRemoteNG.Security.Factories;
 using mRemoteNG.Tree;
 using mRemoteNG.Tree.Root;
 using mRemoteNG.UI.Forms;
+
+using System;
+using System.Linq;
+using System.Runtime.Versioning;
+using System.Windows.Forms;
 
 
 namespace mRemoteNG.App
